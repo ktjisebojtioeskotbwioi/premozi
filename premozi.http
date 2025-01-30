@@ -1,0 +1,6 @@
+@premozi_HostAddress = http://localhost:5135
+
+GET {{premozi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

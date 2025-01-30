@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "premozi", "premozi.csproj", "{3C074652-4368-4181-A700-2FD0F63BCDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C074652-4368-4181-A700-2FD0F63BCDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C074652-4368-4181-A700-2FD0F63BCDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C074652-4368-4181-A700-2FD0F63BCDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C074652-4368-4181-A700-2FD0F63BCDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E7285FB-045A-4770-9267-511E2FF7C2CA}
+	EndGlobalSection
+EndGlobal
