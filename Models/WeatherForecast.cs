@@ -1,4 +1,4 @@
-namespace premozi
+namespace premozi.Models
 {
     public class WeatherForecast
     {
