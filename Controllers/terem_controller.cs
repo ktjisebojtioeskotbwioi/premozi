@@ -18,8 +18,8 @@ namespace premozi.Controllers
         }
 
         // Create/Edit
-        [HttpPost]
-        public JsonResult Create(Terem terem)
+        [HttpPost(Name = "Terem_Create")]
+        public JsonResult Terem_Create(Terem terem)
         {
             if (terem.Id == 0)
             {
@@ -33,8 +33,8 @@ namespace premozi.Controllers
         }
 
         // Get
-        [HttpGet]
-        public JsonResult Get(int id)
+        [HttpGet(Name ="Terem_Get_By_Id")]
+        public JsonResult Terem_Get_By_Id(int id)
         {
             var result = _context.Termek.Find(id);
 
@@ -45,8 +45,8 @@ namespace premozi.Controllers
         }
 
         // Delete
-        [HttpDelete]
-        public JsonResult Delete(int id)
+        [HttpDelete(Name = "Terem_Delete_By_Id")]
+        public JsonResult Terem_Delete_By_Id(int id)
         {
             var result = _context.Termek.Find(id);
 
@@ -60,8 +60,8 @@ namespace premozi.Controllers
         }
 
         // Get all
-        [HttpGet()]
-        public JsonResult GetAll()
+        [HttpGet(Name ="Terem_Get_All")]
+        public JsonResult Terem_Get_All()
         {
             var result = _context.Termek.ToList();
 
