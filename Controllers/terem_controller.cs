@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using premozi.Models;
-using premozi.Data;
 using System;
 
 namespace premozi.Controllers
