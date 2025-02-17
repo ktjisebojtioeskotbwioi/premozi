@@ -14,7 +14,7 @@ namespace premozi.Models
         public int id { get; set; }
         //foreign key
         [MaxLength(11)]
-        public Film Film { get; set; }
+        public Film film { get; set; }
         public DateTime Idopont { get; set; }
         //foreign key
         [MaxLength(11)]
